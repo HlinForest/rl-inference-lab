@@ -1,0 +1,13 @@
+test_advanced_indexing_allocates_a_copy (test_tensor_layout.TensorLayoutTests.test_advanced_indexing_allocates_a_copy) ... ok
+test_contiguous_reshape_can_share_storage (test_tensor_layout.TensorLayoutTests.test_contiguous_reshape_can_share_storage) ... ok
+test_detach_is_not_a_frozen_weight_snapshot (test_tensor_layout.TensorLayoutTests.test_detach_is_not_a_frozen_weight_snapshot) ... ok
+test_incompatible_view_raises_instead_of_copying (test_tensor_layout.TensorLayoutTests.test_incompatible_view_raises_instead_of_copying) ... ok
+test_noncontiguous_does_not_always_require_a_reshape_copy (test_tensor_layout.TensorLayoutTests.test_noncontiguous_does_not_always_require_a_reshape_copy) ... ok
+test_slice_first_element_pointer_is_not_storage_pointer (test_tensor_layout.TensorLayoutTests.test_slice_first_element_pointer_is_not_storage_pointer) ... ok
+test_transpose_flatten_reshape_copies_for_this_layout (test_tensor_layout.TensorLayoutTests.test_transpose_flatten_reshape_copies_for_this_layout) ... ok
+test_transpose_is_a_view_with_reversed_strides (test_tensor_layout.TensorLayoutTests.test_transpose_is_a_view_with_reversed_strides) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.367s
+
+OK
